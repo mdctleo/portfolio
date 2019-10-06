@@ -41,7 +41,6 @@ export default function projects({ data }) {
                 <Heading size="24px" height="33px" weight="400">
                   {node.title}
                 </Heading>
-                📅 {node.date}
                 <Description size="18px" height="25px">
                   {node.description}
 
@@ -52,8 +51,8 @@ export default function projects({ data }) {
                     ))}
                   </p>
                 </Description>
-                {node.demo ? <Button href={node.demo}>Demo</Button> : null}
-                {node.repo ? <Button href={node.repo}>Source</Button> : null}
+                {node.repo ? <Button href={node.repo} target="_blank">Source</Button> : null}
+                {node.website ? <Button href={node.website} target="_blank">Website</Button> : null}
               </div>
             ))}
         </div>
@@ -64,7 +63,7 @@ export default function projects({ data }) {
 
 export const pageQuery = graphql`
   query ProjectsQuery {
-    allProjectsYaml(sort: { fields: date, order: DESC }) {
+    allProjectsYaml {
       edges {
         node {
           title
@@ -76,9 +75,8 @@ export const pageQuery = graphql`
               }
             }
           }
-          demo
+          website
           repo
-          date
           tags
         }
       }
