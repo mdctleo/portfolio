@@ -6,12 +6,14 @@ import SocialIcons from "../components/SEO/SocialIcons";
 import Heading from "../components/Typography/Heading";
 import Description from "../components/Typography/Description";
 import { graphql } from "gatsby";
+import SEO from "../components/SEO/SEO";
 
 export default function index({ data }) {
   const body = data.markdownRemark.rawMarkdownBody;
   const heading = data.markdownRemark.frontmatter.heading;
   return (
     <Layout>
+      <SEO></SEO>
       <PageGrid columns="2fr 1fr" center="true" height="74vh" swap="true">
         <div className="grid-container">
           <div className="grid-item">
