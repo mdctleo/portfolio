@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Leo Lin Portfolio`,
+    title: `Leo Lin`,
     description: `A personal portfolio site`,
     author: `Leo Lin`,
+    url: `https://www.leoylin.com`,
     // footerLinks: [
     //   {
     //     name: "Facebook",
