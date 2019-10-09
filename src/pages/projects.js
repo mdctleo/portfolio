@@ -37,7 +37,11 @@ export default function projects({ data }) {
           {data &&
             data.allProjectsYaml.edges.map(({ node }) => (
               <div className="grid-item">
-                <Img fluid={node.cover.childImageSharp.fluid} />
+                {node.website ? 
+                  <a href={node.website} target="_blank"><Img fluid={node.cover.childImageSharp.fluid}></Img></a>
+                  :
+                  <Img fluid={node.cover.childImageSharp.fluid} />
+                  }
                 <Heading size="24px" height="33px" weight="400">
                   {node.title}
                 </Heading>
@@ -46,13 +50,13 @@ export default function projects({ data }) {
 
                   <p>
                     ️️Built with{" "}
-                    {node.tags.map(tag => (
-                      <Item>{tag}</Item>
+                    {node.tags.map((tag, index) => (
+                      index < node.tags.length - 1 ? <Item>{tag},</Item> : <Item>{tag}</Item>
                     ))}
                   </p>
                 </Description>
                 {node.repo ? <Button href={node.repo} target="_blank">Source</Button> : null}
-                {node.website ? <Button href={node.website} target="_blank">Website</Button> : null}
+                {/* {node.website ? <Button href={node.website} target="_blank">Website</Button> : null} */}
               </div>
             ))}
         </div>

@@ -10,7 +10,7 @@
 
 - title: BC Cancer
   description: >
-     Spent 4 month as a full-stack engineer co-op at BC Cancer research, 
+     I Spent 4 month as a full-stack engineer co-op at BC Cancer research, 
      creating internal applications that support the research in medical physics/imaging
   cover: bc_cancer.jpg
   website: http://www.bccancer.bc.ca/
@@ -51,7 +51,7 @@
   description: >
     I am currently working on Laser Harp as part of a music technology minor's capstone project. 
     The harp projects laser as strings, and a performer can pluck these lasers to trigger sounds/effects.
-  cover: bro_cover.png
+  cover: laser_harp.png
   tags:
     - Arduino
 
