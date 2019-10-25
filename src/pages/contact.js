@@ -7,6 +7,7 @@ import Heading from "../components/Typography/Heading";
 import Description from "../components/Typography/Description";
 import PageGrid from "../components/Responsive/PageGrid";
 import NavLink from "../components/Navbar/NavLink";
+import Resume from "../images/Resume.pdf"
 
 const ListItem = styled.li`
   list-style-type: none;
@@ -27,7 +28,7 @@ export default function projects({ data }) {
                 <ContactLinks href="mailto:mdctleo@hotmail.com">Email</ContactLinks>
             </ListItem>
             <ListItem>
-                <ContactLinks href="">Resume</ContactLinks>
+                <ContactLinks href={Resume} download="leo_resume.pdf">Resume</ContactLinks>
             </ListItem>
       </PageGrid>
     </Layout>
