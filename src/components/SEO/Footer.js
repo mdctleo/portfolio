@@ -10,7 +10,6 @@ export default function Footer() {
         marginTop: "20px"
       }}
     >
-      © 2019 | Leo Lin
     </footer>
   );
 }

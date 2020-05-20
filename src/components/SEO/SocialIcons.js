@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-import { useStaticQuery, graphql } from "gatsby";
+import {useStaticQuery, graphql} from "gatsby";
 import {
-  FaFacebook,
-  FaTwitter,
-  FaInstagram,
-  FaGithub,
-  FaLinkedin
+    FaFacebook,
+    FaTwitter,
+    FaInstagram,
+    FaGithub,
+    FaLinkedin,
+    FaMedium
 } from "react-icons/fa";
 
 const IconGroup = styled.div`
@@ -28,7 +29,7 @@ const IconGroup = styled.div`
 `;
 
 export default function SocialIcons() {
-  const data = useStaticQuery(graphql`
+    const data = useStaticQuery(graphql`
     query MyQuery {
       site {
         siteMetadata {
@@ -41,36 +42,39 @@ export default function SocialIcons() {
     }
   `);
 
-  return (
-    <IconGroup>
-      {data.site.siteMetadata.socialLinks.map(({ name, url }, index) => (
-        <a href={url} key={index}>
-          <Icon name={name} />
-        </a>
-      ))}
-    </IconGroup>
-  );
+    return (
+        <IconGroup>
+            {data.site.siteMetadata.socialLinks.map(({name, url}, index) => (
+                <a href={url} key={index}>
+                    <Icon name={name}/>
+                </a>
+            ))}
+        </IconGroup>
+    );
 }
 
-const Icon = ({ name }) => {
-  switch (name) {
-    case "Facebook":
-      return <FaFacebook />;
-      break;
-    case "Github":
-      return <FaGithub />;
-      break;
-    case "Twitter":
-      return <FaTwitter />;
-      break;
-    case "Instagram":
-      return <FaInstagram />;
-      break;
-    case "LinkedIn":
-      return <FaLinkedin />;
-      break;
+const Icon = ({name}) => {
+    switch (name) {
+        case "Facebook":
+            return <FaFacebook/>;
+            break;
+        case "Github":
+            return <FaGithub/>;
+            break;
+        case "Twitter":
+            return <FaTwitter/>;
+            break;
+        case "Instagram":
+            return <FaInstagram/>;
+            break;
+        case "LinkedIn":
+            return <FaLinkedin/>;
+            break;
+        case "Medium":
+            return <FaMedium/>
+            break
 
-    default:
-      break;
-  }
+        default:
+            break;
+    }
 };
