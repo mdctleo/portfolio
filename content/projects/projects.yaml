@@ -13,8 +13,8 @@
   description: >
      I spent 4 months as a Full Stack Engineer Co-op at BC Cancer research,
      creating internal applications that supported research in medical physics.
-     Some of the functionalities of these application includes calculating calibration factor for
-     the gamma counters or parsing raw data from CSV files.
+     Some of the functionalities of these applications include calculating calibration factor for
+     gamma counters or parsing raw data from CSV files.
   cover: bc_cancer.jpg
   website: http://www.bccancer.bc.ca/
   tags:
@@ -24,10 +24,8 @@
 - title: UBC Social Health Lab
   description: >
     I worked as a part-time Android/Web Developer for the Social Health Lab at UBC.
-    I have worked on the following features:
-     - multi-branching an Android survey that tracks sleep patterns.
-     - setting up an express backend + MongoDB database to receive these test results.
-     - writing a parser using Electron.js to transform raw data for Inquisit programs to CSV.
+    At first I worked on multi-branching an Android survey that tracks sleep patterns, afterwards, I set up an express backend + MongoDB database to receive these test results.
+    Finally, I worked on a separate project that involved writing a parser using Electron.js to transform raw data for Inquisit programs to CSV.
   cover: ubc.png
   website: https://chenlab.psych.ubc.ca/
   tags:

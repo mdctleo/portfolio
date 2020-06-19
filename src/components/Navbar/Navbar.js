@@ -20,7 +20,7 @@ export default function index() {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/projects">Works</NavLink>
+              <NavLink to="/projects">Work</NavLink>
             </li>
             <li>
               <NavLink to="/contact">Contact</NavLink>
