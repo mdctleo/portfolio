@@ -12,7 +12,7 @@
 - title: BC Cancer
   description: >
      I spent 4 months as a Full Stack Engineer Co-op at BC Cancer research,
-     creating internal applications that supported research in medical physics.
+     creating internal applications that supports research in medical physics.
      Some of the functionalities of these applications include calculating the calibration factor for
      gamma counters or parsing raw data from CSV files.
   cover: bc_cancer.jpg
@@ -24,7 +24,7 @@
 - title: UBC Social Health Lab
   description: >
     I worked as a part-time Android/Web Developer for the Social Health Lab at UBC.
-    At first I worked on multi-branching an Android survey that tracks sleep patterns, afterwards, I set up an Express backend + MongoDB database to receive these test results.
+    At first, I worked on multi-branching an Android survey that tracks sleep patterns, afterwards, I set up an Express backend + MongoDB database to receive these survey results.
     Finally, I worked on a separate project that involved writing a parser using Electron.js to transform raw data from Inquisit programs to CSV.
   cover: ubc.png
   website: https://chenlab.psych.ubc.ca/
@@ -36,7 +36,7 @@
 
 - title: Guusto
   description: >
-    I spent 8 months as a Junior Web developer Co-op at Guusto a company that specializes in digital gift cards.
+    I spent 8 months as a Junior Web Developer Co-op at Guusto - a company that specializes in digital gift cards.
     I implemented new features ranging from a link shortener that replaced Guusto's dependency on the Google URL Shortener to the ability to combine
     multiple gift cards into a single gift card.
   cover: guusto_logo.png
@@ -50,7 +50,7 @@
 
 - title: Laser Harp
   description: >
-    I worked on a laser harp as part of my music technology minor's capstone project.
+    I worked on a laser harp as part of my Music Technology minor's capstone project.
     The harp projects lasers as strings, and a performer can pluck these lasers to trigger sounds/effects.
   cover: laser_harp.png
   tags:
@@ -60,8 +60,7 @@
 - title: JABC HR System
   description: >
     I worked on a human resources system for Junior Achievements of BC in UBC's software engineering project class.
-    I worked on the project with 6 other team members where
-    my main responsibility was to set up automated test suites and write tests.
+    I worked on the project with 6 other team members where my main responsibility was to set up automated test suites and write tests.
   cover: jabc.png
   tags:
     - React
@@ -71,7 +70,7 @@
 - title: Insight UBC
   description: >
     UBC's software engineering class' standard project.
-    Web app to query lecture hall information and course metadata from the UBC Learning Spaces website.
+    It is a web app to query lecture hall information and course metadata from the UBC Learning Spaces website.
   cover: insight_ubc.jpg
   tags:
     - TypeScript
