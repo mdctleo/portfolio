@@ -13,7 +13,7 @@
   description: >
      I spent 4 months as a Full Stack Engineer Co-op at BC Cancer research,
      creating internal applications that supported research in medical physics.
-     Some of the functionalities of these applications include calculating calibration factor for
+     Some of the functionalities of these applications include calculating the calibration factor for
      gamma counters or parsing raw data from CSV files.
   cover: bc_cancer.jpg
   website: http://www.bccancer.bc.ca/
