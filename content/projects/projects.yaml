@@ -36,8 +36,8 @@
 
 - title: Guusto
   description: >
-    I spent 8 months as a Junior Web developer Co-op at Guusto, a company that specializes in digital gift cards.
-    I implemented new features ranging from a link shortener that replaced Guusto's dependency on Google URL Shortener to the ability to combine
+    I spent 8 months as a Junior Web developer Co-op at Guusto a company that specializes in digital gift cards.
+    I implemented new features ranging from a link shortener that replaced Guusto's dependency on the Google URL Shortener to the ability to combine
     multiple gift cards into a single gift card.
   cover: guusto_logo.png
   website: https://www.guusto.com/
@@ -51,7 +51,7 @@
 - title: Laser Harp
   description: >
     I worked on a laser harp as part of my music technology minor's capstone project.
-    The harp projects laser as strings, and a performer can pluck these lasers to trigger sounds/effects.
+    The harp projects lasers as strings, and a performer can pluck these lasers to trigger sounds/effects.
   cover: laser_harp.png
   tags:
     - Arduino
@@ -59,9 +59,9 @@
 
 - title: JABC HR System
   description: >
-    I worked on a human resource system for Junior Achivements of BC in UBC's software engineering project class.
-    I worked on the project with 6 other team members, 
-    my main responsibility was setting up automated test suites and writing tests.
+    I worked on a human resources system for Junior Achievements of BC in UBC's software engineering project class.
+    I worked on the project with 6 other team members where
+    my main responsibility was to set up automated test suites and write tests.
   cover: jabc.png
   tags:
     - React
