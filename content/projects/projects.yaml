@@ -1,7 +1,8 @@
 - title: Mobify
   description: >
-    I am currently on a 4 month internship as a Frontend Engineeer at Mobify. 
-    Stay tuned for more details.
+    I spent 4 months as a Frontend Engineer Co-op at Mobify. During my time at Mobify,
+    I worked on projects from revamping the documentation site to developing proof of concepts for the sales team.
+    In addition, I regularly debugged for difficult and edge cases reported by partner engineers on various production projects.
   cover: mobify.png
   website: https://www.mobify.com/
   # date: Sept 1, 2019
@@ -10,8 +11,10 @@
 
 - title: BC Cancer
   description: >
-     I Spent 4 month as a full-stack engineer co-op at BC Cancer research, 
-     creating internal applications that support the research in medical physics/imaging
+     I spent 4 months as a Full Stack Engineer Co-op at BC Cancer research,
+     creating internal applications that supported research in medical physics.
+     Some of the functionalities of these application includes calculating calibration factor for
+     the gamma counters or parsing raw data from CSV files.
   cover: bc_cancer.jpg
   website: http://www.bccancer.bc.ca/
   tags:
@@ -20,10 +23,11 @@
 
 - title: UBC Social Health Lab
   description: >
-    I am working as a contracted part-time Android/web-developer for the Social Health Lab at UBC. 
-    I have been involved in projects such as multi-branching an Android survey in an application that tracks sleep patterns.
-    Setting up an express backend + NoSQL database to receive these test results.
-    Writing a parser using electron.js to transform raw data for Inquisit programs.
+    I worked as a part-time Android/Web Developer for the Social Health Lab at UBC.
+    I have worked on the following features:
+     - multi-branching an Android survey that tracks sleep patterns.
+     - setting up an express backend + MongoDB database to receive these test results.
+     - writing a parser using Electron.js to transform raw data for Inquisit programs to CSV.
   cover: ubc.png
   website: https://chenlab.psych.ubc.ca/
   tags:
@@ -34,10 +38,9 @@
 
 - title: Guusto
   description: >
-    I spent 8 month as a full-stack junior developer co-op at Guusto, 
-    during that time I received a lot of hands-on experience developing new features, 
-    debugging and working with a team through the development cycle. 
-    I worked with HTML, CSS and AngularJs for frontend and Java with spring framework in the backend.
+    I spent 8 months as a Junior Web developer Co-op at Guusto, a company that specializes in digital gift cards.
+    I implemented new features ranging from a link shortener that replaced Guusto's dependency on Google URL Shortener to the ability to combine
+    multiple gift cards into a single gift card.
   cover: guusto_logo.png
   website: https://www.guusto.com/
   tags:
@@ -49,7 +52,7 @@
 
 - title: Laser Harp
   description: >
-    I am currently working on Laser Harp as part of a music technology minor's capstone project. 
+    I am currently working on a laser harp as part of my music technology minor's capstone project.
     The harp projects laser as strings, and a performer can pluck these lasers to trigger sounds/effects.
   cover: laser_harp.png
   tags:
@@ -58,9 +61,9 @@
 
 - title: JABC HR System
   description: >
-    I worked on a human resources system for Junior Achivements of BC in UBC's software engineer project class. 
+    I worked on a human resource system for Junior Achivements of BC in UBC's software engineering project class.
     I worked on the project with 6 other team members, 
-    my main responsbiliy was setting up automated test suites and writing tests.
+    my main responsibility was setting up automated test suites and writing tests.
   cover: jabc.png
   tags:
     - React
@@ -69,8 +72,8 @@
 
 - title: Insight UBC
   description: >
-    UBC's software engineering class's standard project. 
-    Web app to query classroom and course metadata from the UBC Learning spaces website
+    UBC's software engineering class' standard project.
+    Web app to query lecture hall information and course metadata from the UBC Learning Spaces website
   cover: insight_ubc.jpg
   tags:
     - TypeScript
@@ -79,7 +82,7 @@
 - title: SpaceGuy
   description: >
     A little retro game I made for Android right after my first software development class. 
-    User controls a character on screen and attempts to dodge incoming asteroids for a highscore. 
+    User controls a character on screen and attempts to dodge incoming asteroids for a high score.
   cover: space_guy.png
   repo: https://github.com/mdctleo/SpaceGuy
   tags:
