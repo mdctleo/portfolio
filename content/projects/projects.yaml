@@ -24,8 +24,8 @@
 - title: UBC Social Health Lab
   description: >
     I worked as a part-time Android/Web Developer for the Social Health Lab at UBC.
-    At first I worked on multi-branching an Android survey that tracks sleep patterns, afterwards, I set up an express backend + MongoDB database to receive these test results.
-    Finally, I worked on a separate project that involved writing a parser using Electron.js to transform raw data for Inquisit programs to CSV.
+    At first I worked on multi-branching an Android survey that tracks sleep patterns, afterwards, I set up an Express backend + MongoDB database to receive these test results.
+    Finally, I worked on a separate project that involved writing a parser using Electron.js to transform raw data from Inquisit programs to CSV.
   cover: ubc.png
   website: https://chenlab.psych.ubc.ca/
   tags:
