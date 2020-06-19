@@ -71,7 +71,7 @@
 - title: Insight UBC
   description: >
     UBC's software engineering class' standard project.
-    Web app to query lecture hall information and course metadata from the UBC Learning Spaces website
+    Web app to query lecture hall information and course metadata from the UBC Learning Spaces website.
   cover: insight_ubc.jpg
   tags:
     - TypeScript
@@ -80,7 +80,7 @@
 - title: SpaceGuy
   description: >
     A little retro game I made for Android right after my first software development class. 
-    User controls a character on screen and attempts to dodge incoming asteroids for a high score.
+    The user controls a character on the screen and attempts to dodge incoming asteroids for a high score.
   cover: space_guy.png
   repo: https://github.com/mdctleo/SpaceGuy
   tags:
@@ -89,7 +89,7 @@
 
 - title: HappyBox
   description: >
-    A little app that was made under 24 hrs at LumoHacks 2017. 
+    A little app that was made in under 24 hrs at LumoHacks 2017.
     It is a website where users can collect/post tips on how to deal with depression.
   cover: happy_box.png
   repo: https://github.com/mdctleo/HappyBox
