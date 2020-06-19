@@ -50,7 +50,7 @@
 
 - title: Laser Harp
   description: >
-    I worked on a laser harp as part of my Music Technology minor's capstone project.
+    I worked on a laser harp as part of my Music Technology Minor's capstone project.
     The harp projects lasers as strings, and a performer can pluck these lasers to trigger sounds/effects.
   cover: laser_harp.png
   tags:
