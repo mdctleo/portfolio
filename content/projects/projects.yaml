@@ -1,6 +1,6 @@
 - title: Mobify
   description: >
-    I spent 4 months as a Frontend Engineer Co-op at Mobify. During my time at Mobify,
+    I spent 4 months as a Front-end Engineer Co-op at Mobify. During my time at Mobify,
     I worked on projects from revamping the documentation site to developing proof of concepts for the sales team.
     In addition, I regularly debugged for difficult and edge cases reported by partner engineers on various production projects.
   cover: mobify.png
@@ -52,7 +52,7 @@
 
 - title: Laser Harp
   description: >
-    I am currently working on a laser harp as part of my music technology minor's capstone project.
+    I worked on a laser harp as part of my music technology minor's capstone project.
     The harp projects laser as strings, and a performer can pluck these lasers to trigger sounds/effects.
   cover: laser_harp.png
   tags:
