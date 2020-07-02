@@ -95,3 +95,27 @@
   tags:
     - PHP
     - MySQL
+
+- title: Baptisim
+  description: >
+    I wrote an experimental electronic music piece for my music technology class, the piece
+    is loosely inspired by the movie 𝘛𝘩𝘦 𝘎𝘰𝘥𝘧𝘢𝘵𝘩𝘦𝘳.
+    The original arrangement is intended and performed for an 8-channel surround sound system, however, due
+    to the limitation in most personal sound systems, the piece has been compressed to stereo output on SoundCloud.
+  cover: music.png
+  repo: https://soundcloud.com/leo-lin-715239525/baptisim-stereo
+  tags:
+  - electronic music
+  - experimental music
+
+- title: Photography
+  description: >
+    I am a fan of photography and an amateur photographer. My photography interest is
+    mainly in the area of landscape photography.
+  cover: 1.jpg
+  repo: https://drive.google.com/drive/folders/1ohvsaF9RP0OyRdXgX_6wZ812xUPHIp_i?usp=sharing
+  tags:
+  - electronic music
+  - experimental music
+
+
