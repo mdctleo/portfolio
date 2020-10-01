@@ -1,4 +1,15 @@
-- title: Mobify
+- title: Learning Equality
+  description: >
+    I am a contributor and a contracted junior engineer for Learning Equality, a non-profit open source
+    educational platform supported by Google.org and Hewlett-Packard foundation.
+  cover: learning-equality.png
+  website: https://learningequality.org/
+  tags:
+    - Vue.js
+    - Python
+  repo: https://github.com/learningequality
+
+- title: Mobify (now part of Salesforce)
   description: >
     I spent 4 months as a Front-end Engineer Co-op at Mobify. During my time at Mobify,
     I worked on projects from revamping the documentation site to developing proof of concepts for the sales team.
@@ -18,7 +29,7 @@
   cover: bc_cancer.jpg
   website: http://www.bccancer.bc.ca/
   tags:
-    - VueJs
+    - Vue.js
     - Flask
 
 - title: UBC Social Health Lab
